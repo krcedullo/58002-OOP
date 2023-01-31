@@ -1,0 +1,124 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM9XYAuwiMdA6BqCXQdI4S3",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/russellcedullo/58002-OOP/blob/main/introduction%20to%20py\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if 5 > 2:\n",
+        "  print(\"Five is greater than two!\")\n",
+        " "
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "b8yP9BYCwwTK",
+        "outputId": "ba7e1a85-e70d-4e83-f649-88fb05557fc9"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Five is greater than two\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Python Comment"
+      ],
+      "metadata": {
+        "id": "G00YPxAyx2uS"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#This is a comment\n",
+        "  print(\"Hello, World!\")\n",
+        "    #Hello, World!"
+      ],
+      "metadata": {
+        "id": "WxhnRRhVx40p"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Naming Variable\n"
+      ],
+      "metadata": {
+        "id": "onO1ScnYyjaq"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Single variable with single value\n",
+        "x=1\n",
+        "y=2 \n",
+        "print(x)\n",
+        "print(y)\n",
+        "#To multiply variables with a single value\n",
+        "\n",
+        "a=b=c=\"Edwin Gatus\"\n",
+        "#multiple variables with a single value is accepted in python\n",
+        "print(a)\n",
+        "print(b)\n",
+        "print(c)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cF_I5UeXylBT",
+        "outputId": "f1ee1d55-acd5-48ec-9e95-18fca789d0fb"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n",
+            "Edwin Gatus\n",
+            "Edwin Gatus\n",
+            "Edwin Gatus\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
